@@ -1,7 +1,12 @@
 # folosim urllib pentru a lua codul html de pe pagina cu datele xml
+# iar daca exista vreo eroare folosim urllib2
 # folosim xml.etree.ElementTree pentru a interoga fisierul xml si a extrage datele
-from urllib.request import urlopen
+
 import xml.etree.ElementTree as ET
+try:
+    from urllib.request import urlopen
+except ImportError:
+    from urllib2 import urlopen
 
 #URL-ul paginii xml
 xml_url = "http://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/en/observation_BUCUR-BAN_latest.xml"

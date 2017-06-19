@@ -1,7 +1,11 @@
-# folosim urllib pentru a lua codul html de pe pagina cu datele xml
+# folosim urllib pentru a lua codul html de pe pagina cu datele xml 
+# iar daca exista vreo eroare folosim urllib2
 # folosim xml.etree.ElementTree pentru a interoga fisierul xml si a extrage datele
-from urllib.request import urlopen
 import xml.etree.ElementTree as ET
+try:
+    from urllib.request import urlopen
+except ImportError:
+    from urllib2 import urlopen 
 
 #URL-ul paginii xml
 xml_url = "http://meteo.arso.gov.si/uploads/probase/www/fproduct/text/en/forecast_BUCUR-BAN_latest.xml"
@@ -17,11 +21,11 @@ xml = ET.fromstring(url)
 # pentru fiecare camp <metData> gasit, cauta <sunrise> si <sunset> si printeaza valorile 
 # in fisierul "weather_Sunrise_Sunset.txt"
 for Nodes in xml.findall('metData'):
-    for sunrise in Nodes.findall('sunrise'):
-        file_out.write(sunrise.text + '\n')
-    for sunset in Nodes.findall('sunset'):
-        file_out.write(sunset.text + '\n')
-    file_out.write("\n")
+    sunrise = Nodes.find('sunrise')
+    file_out.write(sunrise.text + '\n')
+    
+    sunset = Nodes.find('sunset')
+    file_out.write(sunset.text + '\n\n')
 
 
 
