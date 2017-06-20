@@ -14,11 +14,11 @@ xml_url = "http://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/en/o
 # creeare si scrierea in fisier a datelor
 file_out = open("weather_Humidity.txt", 'w')
 
-# luam codul html din pagina si il stocam in memorie ca string (linia 16)
-# din string, convertam in fisier xml                          (linia 17)
-# gasim unde in xml exista campul <metDAta>                    (linia 18)
-# in <metData> cautam <rh>                                     (linia 19)
-# printam in fisier valoarea campului                          (linia 21)
+# luam codul html din pagina si il stocam in memorie ca string (linia 23)
+# din string, convertam in fisier xml                          (linia 24)
+# gasim unde in xml exista campul <metDAta>                    (linia 25)
+# in <metData> cautam <rh>                                     (linia 26)
+# scriem in fisier valoarea campului                           (linia 28)
 
 url = urlopen(xml_url).read()
 xml = ET.fromstring(url)
