@@ -1,5 +1,4 @@
 import xml.etree.ElementTree as ET
-
 try:
 	from urllib.request import urlopen
 except ImportError:
@@ -37,7 +36,6 @@ url_Humidity = urlopen(xml_url_Humidity).read()
 xml_Humidity = ET.fromstring(url_Humidity)
 Humidity_Search = xml_Humidity.find('metData')
 Humidity = Humidity_Search.find("rh").text
-
 
 with open("Get_Data_For_App.txt", 'w') as file_out:
 	for i in range(0, 5):
