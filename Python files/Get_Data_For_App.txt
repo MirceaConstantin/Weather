@@ -1,0 +1,35 @@
+('25.06.2017', 'Sunday')
+mostly clear
+29
+('30', '19')
+53
+E
+7.2
+('26.06.2017', 'Monday')
+partly cloudy
+29
+('32', '19')
+53
+S
+7.2
+('27.06.2017', 'Tuesday')
+partly cloudy
+29
+('30', '20')
+53
+SE
+14.4
+('28.06.2017', 'Wednesday')
+prevailingly cloudy
+29
+('31', '21')
+53
+SE
+3.6
+('29.06.2017', 'Thursday')
+mostly clear
+29
+('35', '20')
+53
+S
+7.2

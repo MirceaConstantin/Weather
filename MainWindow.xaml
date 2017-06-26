@@ -1,0 +1,118 @@
+﻿<Window x:Class="Weather_Aplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weather_Aplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="568" Width="320">
+    <Grid>
+        
+        <Grid.Background>
+            <ImageBrush ImageSource="/Pictures/Backgrounds/bg_morning.jpg" />
+        </Grid.Background>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="Current_Day_Image" Grid.Row="2" Grid.Column="0" Source="/Pictures/fair_day.png"/>
+            <Image x:Name="Current_Temp_Image" Grid.Column="1" Source="/Pictures/Temperaturi/temp21.png" />
+        
+        </Grid>
+
+        <Grid Grid.Row="3">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="1" Grid.Column="0" Foreground="White" Content="Min" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="1" Foreground="White" Content="Max" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="2" Foreground="White" Content="Hum" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="3" Foreground="White" Content="Wind" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="4" Foreground="White" Content="Prec" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label x:Name="Current_Temp_Min" Grid.Row="2" Grid.Column="0" Foreground="White" Content="13" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label x:Name="Current_Temp_Max" Grid.Row="2" Grid.Column="1" Foreground="White" Content="26" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label x:Name="Current_Humidity" Grid.Row="2" Grid.Column="2" Foreground="White" Content="13%" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label x:Name="Current_Wind" Grid.Row="2" Grid.Column="3" Foreground="White" Content="N-W" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label x:Name="Current_Precipitation" Grid.Row="2" Grid.Column="4" Foreground="White" Content="10%" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+
+        </Grid>
+
+        <Grid Grid.Row="4">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="Next_day_1" Grid.Row="1" Content="Next Day 1" Foreground="White" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Image x:Name="Next_day_1_Image"  Grid.Row="1" Grid.Column="1" Source="/Pictures/ds/ds_clear_day.png" />
+            <Image x:Name="Next_day_1_Temp" Grid.Row="1" Grid.Column="2" Source="/Pictures/Temperaturi/temp40.png" />
+            
+            <Label x:Name="Next_day_2" Grid.Row="2" Content="Next Day 2" Foreground="White" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Image x:Name="Next_day_2_Image" Grid.Row="2" Grid.Column="1" Source="/Pictures/ds/ds_heavy_rain_day_night.png" />
+            <Image x:Name="Next_day_2_Temp" Grid.Row="2" Grid.Column="2" Source="/Pictures/Temperaturi/temp24.png" />
+            
+        </Grid>
+
+        <Grid Grid.Row="5">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="Next_day_3" Grid.Row="0" Content="Next Day 3" Foreground="White" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Image x:Name="Next_day_3_Image" Grid.Row="0" Grid.Column="1" Source="/Pictures/ds/ds_fog_sun_day.png" />
+            <Image x:Name="Next_day_3_Temp" Grid.Row="0" Grid.Column="2" Source="/Pictures/Temperaturi/temp30.png" />
+            
+            <Label x:Name="Next_day_4" Grid.Row="1" Content="Next Day 4" Foreground="White" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Image x:Name="Next_day_4_Image" Grid.Row="1" Grid.Column="1" Source="/Pictures/ds/ds_heavy_snow_day_night.png" />
+            <Image x:Name="Next_day_4_Temp" Grid.Row="1" Grid.Column="2" Source="/Pictures/Temperaturi/temp_20.png" />
+
+        </Grid>
+
+
+        <Label x:Name="City" Grid.Row="1" Content="City" Foreground="White" FontSize="50" HorizontalAlignment="Center"/>
+
+
+    </Grid>
+</Window>
