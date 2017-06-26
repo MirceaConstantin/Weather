@@ -13,6 +13,7 @@ Search  =  xml.find('metData')
 
 # Weather Data lists
 Date = []
+Hours = []
 weatherType = []
 MinMaxTemperature = []
 WindDirection = []
@@ -21,6 +22,7 @@ WindSpeed = []
 # XML file iteration
 for Data in Iter:
 	Date.append((Data.find('valid').text.split(' ')[0], Data.find('valid_day').text.split(' ')[0]))
+	Hours.append((Data.find('sunrise').text.split(' ')[1], Data.find('sunset').text.split(' ')[1]))
 	weatherType.append(Data.find('nn_shortText').text)
 	MinMaxTemperature.append((Data.find('txsyn').text, Data.find('tnsyn').text))
 	WindDirection.append(Data.find('dd_shortText').text)
@@ -37,10 +39,12 @@ Humidity_Search = xml_Humidity.find('metData')
 Humidity = Humidity_Search.find("rh").text
 
 
-with open("Get_Data_For_Appd.txt", 'w') as file_out:
+with open("Get_Data_For_App.txt", 'w') as file_out:
 	for i in range(0, 5):
 		file_out.write(str(Date[i][0])+'\n')
 		file_out.write(str(Date[i][1])+'\n')
+		file_out.write(str(Hours[i][0])+'\n')
+		file_out.write(str(Hours[i][1])+'\n')
 		file_out.write(str(weatherType[i])+'\n')
 		file_out.write(Temperature+'\n')
 		file_out.write(str(MinMaxTemperature[i][0])+'\n')
