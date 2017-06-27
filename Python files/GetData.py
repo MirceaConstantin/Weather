@@ -28,7 +28,10 @@ xml_Humidity = ET.fromstring(url_Humidity)
 Humidity_Search = xml_Humidity.find('metData')
 Humidity = Humidity_Search.find("rh").text
 
+<<<<<<< HEAD
 # Writing data to the file
+=======
+>>>>>>> 0eab3e0f98d6c95d2252623d256823220dca12e6
 with open("Get_Data_For_App.txt", 'w') as file_out:
 	# Temperature
 	file_out.write(Temperature+'\n')
