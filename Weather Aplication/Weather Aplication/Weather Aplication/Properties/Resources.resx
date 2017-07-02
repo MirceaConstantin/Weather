@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="app_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\app_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\app_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_evening" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\bg_evening.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_morning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\bg_morning.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\clear_d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\clear_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\clear_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\clear_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloudy_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\cloudy_d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloudy_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\cloudy_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloudy_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\cloudy_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_clear_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_clear_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_clear_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_clear_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_cloudy_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_cloudy_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_dust_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_dust_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_fair_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_fair_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_fair_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_fair_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_flurries_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_flurries_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_fog_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_fog_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_fog_moon_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_fog_moon_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_fog_sun_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_fog_sun_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_freezing_rain_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_freezing_rain_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_hail_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_hail_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_haze_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_haze_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_heavy_rain_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_heavy_rain_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_heavy_snow_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_heavy_snow_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_hurricane_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_hurricane_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_light_rain_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_light_rain_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_mostly_cloudy_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_mostly_cloudy_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_partly_cloudy_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_partly_cloudy_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_partly_cloudy_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_partly_cloudy_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_rain_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_rain_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_scattered_showers_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_scattered_showers_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_scattered_thundershowers_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_scattered_thundershowers_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_scatttered_thundershowers_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_scatttered_thundershowers_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_sleet_mix_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_sleet_mix_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_smoky_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_smoky_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_snow_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_snow_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_snow_rain_mix_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_snow_rain_mix_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_thundershowers_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_thundershowers_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_tornado_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_tornado_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ds_windy_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\ds\ds_windy_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dust_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\dust_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fair_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\fair_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fair_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\fair_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flurries_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\flurries_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foggy_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\foggy_d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foggy_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\foggy_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fog_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\fog_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fog_moon_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\fog_moon_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fog_sun_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\fog_sun_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freezing_rain_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\freezing_rain_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hail_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\hail_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haze_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\haze_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavy_rain_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\heavy_rain_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavy_snow_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\heavy_snow_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hurricane_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\hurricane_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\i.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onboarding_partlycloudy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\onboarding_partlycloudy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onboarding_rain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\onboarding_rain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="partly_cloudy_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\partly_cloudy_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\rain_d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_ico_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\rain_ico_90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\rain_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scattered_showers_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\scattered_showers_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scattered_thunderstorms_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\scattered_thunderstorms_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scatttered_thundershowers_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\scatttered_thundershowers_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sleet_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\sleet_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sleet_mix_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\sleet_mix_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smoky_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\smoky_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\snow_d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\snow_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\snow_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow_rain_mix_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\snow_rain_mix_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storm_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\storm_d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storm_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Backgrounds\storm_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp106.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp109.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp113.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp114.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp115.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp117.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp119.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp124.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp134.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp139.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp145.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp148.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp152.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp153.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp154.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp155.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp156.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp157" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp157.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp158" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp158.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp159.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp95.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Temperaturi\temp_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thundershowers_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\thundershowers_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderstorm_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\thunderstorm_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tornado_day_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\tornado_day_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowicons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\windowicons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Get_Data_For_App" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Get_Data_For_App.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

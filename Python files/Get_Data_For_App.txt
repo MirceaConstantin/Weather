@@ -1,0 +1,47 @@
+29
+60
+02.07.2017
+Sunday
+4:35
+20:04
+partly cloudy
+29
+22
+E
+7.2
+03.07.2017
+Monday
+4:36
+20:04
+cloudy
+22
+19
+NE
+25.2
+04.07.2017
+Tuesday
+4:36
+20:03
+partly cloudy
+25
+17
+W
+14.4
+05.07.2017
+Wednesday
+4:37
+20:03
+clear
+26
+15
+S
+3.6
+06.07.2017
+Thursday
+4:38
+20:03
+mostly clear
+28
+16
+SW
+14.4
